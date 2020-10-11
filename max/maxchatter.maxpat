@@ -336,7 +336,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 207.0, 204.0, 29.5, 22.0 ],
+									"patching_rect" : [ 207.0, 193.0, 29.5, 22.0 ],
 									"text" : "t l b"
 								}
 
@@ -360,7 +360,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 273.0, 543.0, 50.5, 22.0 ],
+									"patching_rect" : [ 263.0, 555.0, 50.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"precision" : 6
@@ -692,14 +692,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-46",
-					"linecount" : 3,
+					"linecount" : 7,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 245.0, 327.0, 214.0, 650.0 ],
-					"text" : "testing one two\rthis is a new message\rhello\r"
+					"text" : "15\r14\r13\r12\r11\r10\r9\r"
 				}
 
 			}
@@ -794,7 +794,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 345.0, 120.0, 105.0, 33.0 ],
+					"patching_rect" : [ 327.5, 163.0, 105.0, 33.0 ],
 					"text" : "start the chat client"
 				}
 
@@ -805,7 +805,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 354.0, 77.0, 138.0, 20.0 ],
+					"patching_rect" : [ 347.5, 120.0, 138.0, 20.0 ],
 					"text" : "Install the dependencies"
 				}
 
@@ -825,7 +825,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 584.0, 284.0, 400.0, 220.0 ],
+					"patching_rect" : [ 524.0, 255.0, 400.0, 220.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -837,7 +837,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 268.0, 120.0, 64.0, 22.0 ],
+					"patching_rect" : [ 261.5, 163.0, 64.0, 22.0 ],
 					"text" : "script start"
 				}
 
@@ -849,7 +849,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 251.0, 76.0, 98.0, 22.0 ],
+					"patching_rect" : [ 244.5, 119.0, 98.0, 22.0 ],
 					"text" : "script npm install"
 				}
 
@@ -865,8 +865,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 1
 					}
 ,
@@ -976,6 +974,14 @@
 
 			}
  ],
+		"parameters" : 		{
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "maxchatter.js",
 				"bootpath" : "~/Google Drive/_ ACTIVE COURSES/EE F2020/Teaching Team/tech research/chatinmax/chatinmax/max",
