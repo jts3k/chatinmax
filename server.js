@@ -10,8 +10,8 @@ io.on('connection', (socket) => {
   console.log('a user connected');
 });
 
-http.listen(3000, () => {
-  console.log('listening on *:3000');
+http.listen(8080, () => {
+  console.log('listening on *:8080');
 });
 
 io.on('connection', (socket) => {
