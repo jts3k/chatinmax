@@ -12,3 +12,4 @@ And [this one](https://github.com/scotch-io/heroku-node) for deploying to heroku
 9. `git push heroku main -f` to update heroku by force
 10. `heroku restart` if weird things happen
 11. make sure to update code so that heroku sets the port for listening: `var port = process.env.PORT || 8080;`
+12. `heroku logs --tail` to monitor the server stuff
