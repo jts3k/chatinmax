@@ -1,5 +1,5 @@
 Based off [this tutorial](https://socket.io/get-started/chat/)
-And [this one](https://github.com/scotch-io/heroku-node) for deploying to heroku.
+And [this one](https://scotch.io/tutorials/how-to-deploy-a-node-js-app-to-heroku) for deploying to heroku.
 
 1. `npm init`
 2. `npm install --save socket.io express`
