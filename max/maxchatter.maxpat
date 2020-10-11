@@ -641,7 +641,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 241.0, 310.0, 70.0, 22.0 ],
+					"patching_rect" : [ 245.0, 267.0, 70.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -671,7 +671,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.5, 391.0, 45.0, 22.0 ],
+					"patching_rect" : [ 131.5, 363.0, 45.0, 22.0 ],
 					"text" : "s reset"
 				}
 
@@ -684,7 +684,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 123.5, 362.0, 100.0, 20.0 ],
+					"patching_rect" : [ 131.5, 334.0, 100.0, 20.0 ],
 					"text" : "erase"
 				}
 
@@ -692,15 +692,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-46",
-					"linecount" : 13,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 245.0, 367.0, 214.0, 650.0 ],
-					"presentation_linecount" : 13,
-					"text" : "17\r16\r15\r14\rsome text\rfrom my patch\r18\r17\r16\r15\r14\rsome text\rfrom my patch\r"
+					"patching_rect" : [ 245.0, 327.0, 214.0, 650.0 ]
 				}
 
 			}
@@ -791,11 +788,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-9",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 354.0, 106.0, 105.0, 20.0 ],
-					"text" : "start up the server"
+					"patching_rect" : [ 345.0, 120.0, 105.0, 33.0 ],
+					"text" : "start the chat client"
 				}
 
 			}
